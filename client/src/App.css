@@ -1,0 +1,32 @@
+.App {
+  height: 100vh;
+  /* position: relative; */
+}
+.header-quotes{
+  text-align: center;
+}
+.quotes-container{
+  display: block;
+}
+.slides-container{
+  height: 400px;
+}
+.quote-item-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.quote-item-container h2{
+  font-style: oblique;
+}
+.quote-item-container img{
+  height: 250px;
+  width: 250px;
+  margin: 0px auto;
+}
+.quotes-bottom-buttons{
+  display: flex; 
+  margin-top: 20px;
+  justify-content: center;
+}
