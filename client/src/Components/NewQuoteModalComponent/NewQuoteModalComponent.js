@@ -61,7 +61,7 @@ class NewQuoteModalComponent extends Component {
         this.props.close();
         swal.fire({
           icon: "success",
-          title: "201 - Quoted add successfully",
+          title: "201 - Quote add successfully",
         });
         this.props.onSavedQuote(data)
       })
